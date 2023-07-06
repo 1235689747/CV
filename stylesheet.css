@@ -1,0 +1,99 @@
+body{
+    width:100%;
+    font-family: 'Noto Serif Gujarati', serif;
+}
+
+
+.footer {
+    margin-top: 0.5%;
+    background-color:rgba(255, 160, 230, 0.778) ;
+    text-decoration: none;
+    font-size: larger;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0cqmin;
+    
+  }
+  .footer p{
+    color: #2c2c2a;
+    font-weight: bolder;
+    font-size: larger;
+  }
+  .footer a{
+    text-decoration: none;
+  }
+
+
+#contact {
+    width:100%;
+margin-bottom: 0;
+padding-bottom: 0;
+background-color: #000;
+color: #fff;
+padding: 1% 0;
+font-size: xx-large;
+align-items: center;
+text-align: center;
+border-radius: 10%;
+
+}
+#contact a{
+    text-decoration: none;
+}
+.contact-info {
+display: flex;
+justify-content: center;
+align-items: center;
+padding:1%;
+
+}
+
+.contact-item {
+margin: 0 20px;
+font-size: 1.3rem;
+position: relative;
+}
+
+.contact-item a {
+color: #454545;
+display: flex;
+align-items: center;
+transition: color 0.3s ease;
+}
+
+.whatsapp a:hover{
+color: rgb(41, 187, 46);
+}
+.instagram a:hover{
+color: rgb(255, 61, 145);
+}
+.gmail a:hover{
+color: rgb(255, 0, 0);
+}
+.feedback a:hover{
+color: rgb(49, 158, 236);
+}
+
+.contact-item img {
+display: block;
+width: 40px;
+margin-right: 10px;
+}
+
+.whatsapp img {
+content: url(whatsapp.png);
+}
+.feedback img
+{
+content: url(feedback.png);
+}
+
+.instagram img {
+content: url(instagram.png);
+}
+
+.gmail img {
+content: url(gmail.png);
+}
